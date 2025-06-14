@@ -1,6 +1,6 @@
 {
   "name": "robrose-io",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "scripts": {
     "dev": "astro check --watch & astro dev",
     "start": "astro dev",
@@ -56,5 +56,6 @@
     "!(*.{png,jpg,jpeg,webp})": [
       "prettier --plugin-search-dir=. --write"
     ]
-  }
+  },
+  "packageManager": "pnpm@9.6.0+sha256.dae0f7e822c56b20979bb5965e3b73b8bdabb6b8b8ef121da6d857508599ca35"
 }
